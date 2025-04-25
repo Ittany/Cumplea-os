@@ -104,6 +104,46 @@ body {
   display: none !important;
 }
 
+@media (max-width: 768px) {
+  .countdown-box {
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+  }
+
+  .countdown-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .countdown-timer {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .time-unit {
+    min-width: 60px;
+    padding: 0.8rem;
+  }
+
+  .time-unit span {
+    font-size: 2rem;
+  }
+
+  .time-unit small {
+    font-size: 0.75rem;
+  }
+
+  .time-separator {
+    font-size: 1.5rem;
+    margin-top: -0.5rem;
+  }
+
+  #open-surprise {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+
 .song {
   visibility: hidden;
 }
